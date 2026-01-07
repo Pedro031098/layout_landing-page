@@ -1,3 +1,13 @@
-body {
-  margin: 0;
-}
+@use 'base/reset';
+@use 'base/typography';
+@use 'layout/header';
+@use 'layout/menu';
+@use 'layout/footer';
+@use 'components/icons';
+@use 'components/form';
+@use 'sections/about-us';
+@use 'sections/gallery';
+@use 'sections/explore';
+@use 'sections/contact';
+@use 'responsive/tablet';
+@use 'responsive/mobile';
