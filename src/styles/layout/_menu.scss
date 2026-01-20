@@ -38,4 +38,22 @@
       border-bottom: 1px solid #fff;
     }
   }
+
+  &__phone-number {
+    display: block;
+    color: #fff;
+    padding: 15px 0;
+    text-decoration: none;
+
+    &:hover {
+      border-bottom: 1px solid #fff;
+    }
+  }
+
+  &__call-to-order {
+    color: #fff;
+    text-decoration: none;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #fff;
+  }
 }
